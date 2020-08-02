@@ -45,19 +45,20 @@ a {
 div.top-container{
     background-color: #e3fdfd;
     position: relative;
-    padding-top: 100px;
+    padding-top: 300px;
+    padding-bottom: 200px;
 }
 
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 250px;
 }
 
 .bottom-cloud{
     position: absolute;
     left: 300px;
-    bottom: 300px;
+    bottom: 500px;
 }
 
 .skill-row {
@@ -131,4 +132,11 @@ div.bottom-container{
     background-image: -o-linear-gradient(top, #30e3cd, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cd, #2bc4ad);
     text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: #66BFBF;
+  }
+  .navbar-brand:hover{
+    color: #66BFBF;
   }
